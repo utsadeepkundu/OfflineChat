@@ -1,0 +1,13 @@
+# Baseline profile: tells ART to precompile the hot startup and chat paths at install time.
+# Wildcards follow the baseline profile rule syntax (HSPL = hot, startup, post-startup, live).
+HSPLcom/offlinechat/app/MainActivity;->**(**)**
+HSPLcom/offlinechat/app/OfflineChatApp;->**(**)**
+HSPLcom/offlinechat/app/core/**;->**(**)**
+HSPLcom/offlinechat/app/net/**;->**(**)**
+HSPLcom/offlinechat/app/engine/**;->**(**)**
+HSPLcom/offlinechat/app/data/**;->**(**)**
+HSPLcom/offlinechat/app/ui/chat/**;->**(**)**
+HSPLcom/offlinechat/app/ui/components/**;->**(**)**
+HSPLcom/offlinechat/app/ui/chatlist/**;->**(**)**
+HSPLcom/offlinechat/app/ui/theme/**;->**(**)**
+Lcom/offlinechat/app/**;
